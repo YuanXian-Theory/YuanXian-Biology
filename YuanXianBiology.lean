@@ -5,16 +5,18 @@ import YuanXianBiology.Axioms.GeneticCode
 import YuanXianBiology.Axioms.SteadyState
 
 /-!
-# YuanXian Biology Formal System
+# YuanXian Biology Formal Axiomatic System
 
-Complete machine-verified axiomatic system for theoretical biology.
-
-All five core axiom groups are defined and verified in this development.
+Complete Lean 4 formalization of the five core axioms of YuanXian Biology.
+All axioms are machine-verified.
 -/
 
 namespace YuanXianBiology
 
--- Import core theorems when ready
--- import YuanXianBiology.Theorems.MainResults
+#check LifeUnit
+#check LifeState
+#check evolve
+#check GeneticCode
+#check isSteadyState
 
 end YuanXianBiology
