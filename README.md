@@ -4,7 +4,7 @@
 
 [![Lean 4](https://img.shields.io/badge/Lean%204-Verified-brightgreen)](https://lean-lang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Zenodo](https://img.shields.io/badge/Zenodo-10.5281/zenodo.XXXXXX-blue)](https://zenodo.org)
+[![Zenodo](https://img.shields.io/badge/Zenodo-10.5281/zenodo.20229953-blue)](https://zenodo.org)
 
 ## Overview
 
@@ -49,5 +49,5 @@ Citation
   year         = {2026},
   publisher    = {YuanXian-Theory},
   howpublished = {\url{https://github.com/YuanXian-Theory/YuanXian-Biology}},
-  note         = {Zenodo DOI: 10.5281/zenodo.xxxxxxx}
+  note         = {Zenodo DOI: 10.5281/zenodo.20229953}
 }
