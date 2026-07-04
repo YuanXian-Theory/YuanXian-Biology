@@ -14,7 +14,15 @@ Built upon the core paradigms of YuanXian Theory (Universal Life Paradigm, Binar
 
 All axioms, lemmas, and key theorems have been **fully formalized and mechanically verified in Lean 4**.
 
-### Core Axioms
+### Recent Paper
+
+**From “Residual Life View” to “Cosmic Life Theory” — The Crisis and Transcendence of Modern Biology under YuanXian Theory**
+
+This new paper systematically critiques the reductionist “residual life view” of modern biology and proposes a paradigm shift to the “cosmic life theory” based on YuanXian Theory’s four core laws (FSC, TCSC, SRM, STM). It includes formal derivations of the 64-codon genetic code, six-level dimensional reduction mapping, symbiotic equilibrium index, and topological explanations for reproductive isolation and immune homeostasis.
+
+**Zenodo DOI**: [10.5281/zenodo.XXXXXXX](https://zenodo.org) *(to be updated after upload)*
+
+## Core Axioms
 
 1. **Life Unit Ontology** — Minimal self-referential closed-loop units
 2. **Life State Space** — Triadic coupling of matter, energy, and information
@@ -23,11 +31,9 @@ All axioms, lemmas, and key theorems have been **fully formalized and mechanical
 5. **Systemic Steady State** — True circular self-consistent attractor
 
 ## Repository Structure
-
+lean/ ├── Biology/ │   ├── ReductionChain.lean      # Six-level dimensional reduction mapping │   ├── GeneticCode.lean         # 64-codon space and topological necessity │   ├── SymbioticIndex.lean      # Symbiotic equilibrium index S_symb │   └── MindField.lean           # Self-referential mind-field in biology ├── Core/ │   └── TCSC.lean                # TCSC completeness and fixed-point theorems └── Physics/ └── T64.lean                 # T^64 topology and projections
 
 ## Quick Start
-
-### Installation
 
 ```bash
 # 1. Install elan (Lean version manager)
@@ -41,8 +47,7 @@ cd YuanXian-Biology
 lake exe cache get
 lake build
 
-
-Citation
+## Citation
 @misc{yuanxian_biology_2026,
   author       = {Zhenyuan Acharya},
   title        = {YuanXian Biology Formal Axiomatic System (Lean 4 Verified)},
@@ -51,3 +56,7 @@ Citation
   howpublished = {\url{https://github.com/YuanXian-Theory/YuanXian-Biology}},
   note         = {Zenodo DOI: 10.5281/zenodo.20229953}
 }
+
+Related Repositories
+•  Main Formalization: YXT-Formalization
+•  Independence Proofs: MachineVerification
